@@ -8,6 +8,7 @@ import plotly.graph_objects as go
 import numpy as np
 import pandas as pd
 import json
+import math
 
 FONT_AWESOME = ["https://use.fontawesome.com/releases/v5.10.2/css/all.css"]
 

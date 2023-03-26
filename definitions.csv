@@ -1,1 +1,21 @@
 term,definition
+Engenharia de Software,"Engenharia de software é uma área da engenharia e da computação voltada à especificação, desenvolvimento, manutenção e criação de software, com a aplicação de tecnologias e práticas de gerência de projetos e outras disciplinas, visando organização, produtividade e qualidade."
+Software,"Trata-se de uma sequência de instruções a serem seguidas e/ou executadas, na manipulação, redirecionamento ou modificação de um dado ou acontecimento."
+Software Legado,"Softwares que estão obsoletos, ou seja, estão dentro de uma companhia por muitos anos. Isso quer dizer que, com os avanços da tecnologia, essa infraestrutura começa a não fazer parte da dinâmica da empresa, ficando cada vez mais 'fora de uso'."
+Domínio da Aplicação,"Denota ou agrupa um conjunto de sistemas ou de áreas funcionais, dentro dos sistemas, que exibem funcionalidades similares."
+Especificação,"É o que define os objetivos e funções que um software precisa executar, bem como as que ele não pode ter (restrições)."
+Desenvolvimento,"Um processo de desenvolvimento de software é um conjunto de atividades, parcialmente ordenadas, com a finalidade de obter um produto de software."
+Validação,É a certificação de que o sistema atende as necessidades e expectativas do cliente.
+Evolução,A evolução de um software é o processo pós desenvolvimento que visa uma melhora contínua do software para que ele continue tendo manutenções.
+Estudo de Viabilidade,O estudo de viabilidade visa analisar se o software em questão continua sendo útil e viável para resolver o problema proposto.
+Elicitação de Requisitos,É uma fase do projeto onde são extraídas informações do cliente sobre o que ele deseja que seja construído.
+Especificação de Requisitos,é um documento que descreve as necessidades específicas de um projeto ou sistema.
+Validação de Requisitos,É o processo de confirmação de que os requisitos escritos estão de acordo com as solicitações das partes interessadas
+Projeto de Arquitetura,"A arquitetura de software de um sistema consiste na definição dos componentes de software, suas propriedades externas, e seus relacionamentos com outros softwares."
+Projeto de Interface,Demonstrar de forma visual aos desenvolvedores o objetivo de interface que será implementada.
+Projeto de Componente,Identificar e listar cada componente que será adicionado no sistema e sua funcionalidade.
+Projeto de Banco de Dados,Listar quais serão as estruturas de dados do sistema e como ele serão armazenados.
+Teste de Componentes,Os componentes são testados pelos desenvolvedores.
+Teste de Sistema,Componentes são interligados para o teste do sistema como um todo.
+Teste de Aceitação,Último teste a ser feito para que o sistema seja validado.
+UML,"A Linguagem de modelagem unificada (UML) foi criada para estabelecer uma linguagem de modelagem visual comum, semanticamente e sintaticamente rica, para arquitetura, design e implementação de sistemas de software complexos, tanto estruturalmente quanto para comportamentos."
