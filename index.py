@@ -7,7 +7,7 @@ nav_block_style = {
 last_btn_trigget = 0
 
 def define_pag_nums():
-    data = pd.read_csv("definitions.csv")
+    data = pd.read_csv("data/definitions.csv")
     
     page_size = 12
     
@@ -17,7 +17,7 @@ def define_pag_nums():
 
 
 ## DATASETS
-data = pd.read_csv("definitions.csv")
+data = pd.read_csv("data/definitions.csv")
 
 
 add_modal = dbc.Modal([
@@ -164,9 +164,11 @@ app.layout = dbc.Row([  # Main Container
 )
 def charge_search(n, wor, defi, pag, search):
     
+    if ctx.triggered_id == "list-definitions": search = None
+    
     if pag == None: pag = 1
     
-    df = pd.read_csv("definitions.csv")
+    df = pd.read_csv("data/definitions.csv")
     
     pag_range = {
         1: [0,11],
@@ -244,7 +246,7 @@ def toggle_ex_modal(n, is_open):
      State("add-modal-def", "value")]
 )
 def add_definition_in_csv(n, term, defi):
-    data = pd.read_csv("definitions.csv")
+    data = pd.read_csv("data/definitions.csv")
 
     if n != 0:
         if term != None:
@@ -252,7 +254,7 @@ def add_definition_in_csv(n, term, defi):
 
                 data.loc[len(data)] = [term, defi]
 
-                data.to_csv("definitions.csv", index=False)
+                data.to_csv("data/definitions.csv", index=False)
                 return data.to_dict()
             
     else:
@@ -264,13 +266,13 @@ def add_definition_in_csv(n, term, defi):
     State("ex-modal-term", "value")
 )
 def ex_term_in_csv(n, term):
-    data = pd.read_csv("definitions.csv")
+    data = pd.read_csv("data/definitions.csv")
     
     if n != 0:
         if term != None:
             if data.loc[data['term'] == term].shape[0] != 0:
                     data = data.loc[data['term'] != term]
-                    data.to_csv("definitions.csv", index=None)
+                    data.to_csv("data/definitions.csv", index=None)
                     
                     return dbc.Alert("Removed Successfull!", color="success")
                 
@@ -280,4 +282,4 @@ def ex_term_in_csv(n, term):
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(debug=False)
