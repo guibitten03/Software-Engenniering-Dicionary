@@ -172,7 +172,10 @@ def charge_search(n, wor, defi, pag, search):
     
     pag_range = {
         1: [0,11],
-        2: [12,23]
+        2: [12,23],
+        3: [24,35],
+        4: [36,47],
+        5: [48,59]
     }
     
     definitions = []
@@ -282,4 +285,4 @@ def ex_term_in_csv(n, term):
 
 
 if __name__ == "__main__":
-    app.run_server(debug=False)
+    app.run_server(debug=True)

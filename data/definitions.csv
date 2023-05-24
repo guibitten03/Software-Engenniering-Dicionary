@@ -19,3 +19,30 @@ Teste de Componentes,Os componentes são testados pelos desenvolvedores.
 Teste de Sistema,Componentes são interligados para o teste do sistema como um todo.
 Teste de Aceitação,Último teste a ser feito para que o sistema seja validado.
 UML,"A Linguagem de modelagem unificada (UML) foi criada para estabelecer uma linguagem de modelagem visual comum, semanticamente e sintaticamente rica, para arquitetura, design e implementação de sistemas de software complexos, tanto estruturalmente quanto para comportamentos."
+Relação de Dependencia,"É um relacionamento no qual um elemento, o cliente, usa ou depende de outro elemento, o fornecedor."
+Relação de Associação,Define um relacionamento entre duas classes que permite que um objeto faça com que outro objeto realize uma ação em seu lugar.
+Generalização,É aquele no qual um elemento de modelo (o filho) tem como base outro elemento de modelo (o pai).
+Realização,"É aquele entre dois elementos de modelo, no qual um elemento de modelo (o cliente) realiza o comportamento que o outro elemento de modelo (o fornecedor) especifica."
+Diagrama de Classes,Diagrama de classes é uma representação da estrutura e relações das classes que servem de modelo para objetos.
+Modelo de Contexto,mostram como um sistema que está sendo modelado está posicionado em um ambiente com outros sistemas e processos. 
+Modelo de Interação,Representa as mensagens trocadas entre objetos para a execução de cenários dos casos de uso do sistema.
+Modelos Estruturais,Mostram a organização de um sistema em termos de seus componentes que compõem este sistema e seus relacionamentos.
+Modelos Comportamentais,É usado para representar o comportamento de um sistema tem que ter como que o sistema deve se comportar tão diferente do diagrama anterior que era o diagrama.
+Engenharia dirigida a modelos,É uma metodologia de desenvolvimento de software que se concentra na criação e exploração de modelos de domínio
+Comunicação de Stakeholders,"A comunicação de stakeholders refere-se ao processo de troca de informações, diálogo e interação entre uma organização e os seus stakeholders."
+Análise de Sistema,"A análise de sistemas é um processo sistemático que envolve o estudo, compreensão e avaliação de sistemas complexos para identificar problemas, necessidades e oportunidades de melhoria."
+Reúso em larga escala,"O reúso em larga escala, também conhecido como reutilização em larga escala, é uma prática que busca aproveitar soluções já existentes e aplicá-las em um contexto mais amplo."
+Modelos Estruturais,Modelos estruturais referem-se a representações simplificadas de uma estrutura ou sistema complexo. Esses modelos são usados para entender e analisar a organização e as interações dos componentes de um sistema.
+Modelos Dinâmicos,Modelos dinâmicos são representações matemáticas ou computacionais de sistemas que mudam ao longo do tempo.
+Modelos de Subsistência,"Os modelos de subsistência são ferramentas analíticas que visam compreender e prever os meios de subsistência de indivíduos, famílias ou comunidades. "
+Modelos de Máquina de estados,Um modelo de máquina de estados é uma representação abstrata de um sistema que descreve o comportamento sequencial em resposta a eventos externos ou internos.
+Teste de desenvolvimento,"O teste de desenvolvimento é um processo de avaliação e verificação da funcionalidade, desempenho e qualidade de um software ou aplicativo em desenvolvimento."
+Teste de lançamento,"O teste de lançamento, também conhecido como teste de implantação ou teste de implementação, é uma atividade realizada antes de lançar um software ou aplicativo para os usuários finais ou para o ambiente de produção."
+Teste de usuário,"O teste de usuário, também conhecido como teste de usabilidade ou teste de aceitação, é uma técnica de avaliação do software que envolve a participação ativa dos usuários finais."
+Caixa preta,"O teste de caixa preta é uma técnica de teste de software em que o testador não possui conhecimento interno sobre a estrutura interna, o código-fonte ou a implementação do sistema."
+Caixa branca,"O teste de caixa branca, também conhecido como teste de caixa transparente ou teste estrutural, é uma técnica de teste de software que leva em consideração o conhecimento interno da estrutura, lógica e implementação do sistema."
+Mudança Contínua,"A mudança contínua, também conhecida como melhoria contínua ou evolução contínua, refere-se ao processo de fazer melhorias incrementais e constantes em um sistema, processo ou produto ao longo do tempo."
+Aumento de Complexidade,"O aumento de complexidade ocorre quando um sistema, processo ou problema se torna mais complicado, com interações e elementos que se tornam mais difíceis de compreender e gerenciar."
+Estabilidade Organizacional,A estabilidade organizacional refere-se à capacidade de uma organização de manter-se equilibrada e consistente em face de mudanças internas e externas.
+Conservação da familiariadade,"A conservação da familiaridade é um princípio que se refere à prática de manter elementos familiares e reconhecíveis em um sistema, processo ou ambiente."
+Sistema de Feedback,"Um sistema de feedback é um mecanismo que permite o retorno de informações sobre o desempenho ou resultado de um sistema, processo ou ação."
